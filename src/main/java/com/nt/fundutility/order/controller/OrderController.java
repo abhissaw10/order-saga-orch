@@ -43,6 +43,11 @@ public class OrderController {
 		return orderService.getAllOrders();
 	}
 	
+	/**
+	 * 
+	 * @param orderId
+	 * @return
+	 */
 	@GetMapping("/v1/order/{orderId}")
 	public Order getAll(@PathVariable String orderId) {
 		return orderService.getById(orderId);
