@@ -1,4 +1,4 @@
-package com.nt.fundutility.order.ordersagaorch;
+package com.nt.fundutility.order.service;
 
 import java.time.LocalDate;
 import java.util.List;
@@ -11,6 +11,7 @@ import org.springframework.data.domain.Example;
 import org.springframework.stereotype.Service;
 
 import com.nt.fundutility.order.model.Order;
+import com.nt.fundutility.order.repository.OrderRepository;
 
 @Service
 public class OrderService {
